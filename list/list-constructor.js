@@ -24,4 +24,57 @@ List.prototype.pop = function() {
   return returnValue;
 };
 
+/**
+ * // Removes the first element from an array and returns that removed element
+ * @//
+ */
+List.prototype.shift = function() {
+  let returnValue = this.data;
+  // delete this.data[0];
+  
+  
+  return returnValue;
+
+}
+
+/**
+ * //
+ * @//
+ */
+List.prototype.unshift = function() {
+  
+}
+
+/**
+ * //
+ * @//
+ */
+List.prototype.forEach = function() {
+  
+}
+
+/**
+ * //
+ * @//
+ */
+List.prototype.map = function() {
+  
+}
+
+/**
+ * //
+ * @//
+ */
+List.prototype.filter = function() {
+  
+}
+
+/**
+ * //
+ * @//
+ */
+List.prototype.reduce = function() {
+  
+}
+
 module.exports = List;
