@@ -1,5 +1,6 @@
 'use strict';
 
+// Vehicle Constructor
 const Vehicle = function(name, wheels) {
   this.name = name;
   this.wheels = wheels;
