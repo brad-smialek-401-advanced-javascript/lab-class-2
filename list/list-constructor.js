@@ -29,7 +29,7 @@ List.prototype.pop = function() {
  * @//
  */
 List.prototype.shift = function() {
-  let returnValue = this.data;
+  let returnValue = this.data[];
   // delete this.data[0];
   
   
